@@ -1,0 +1,12 @@
+<!-- -*- xml -*- -->
+
+<launch>
+	
+	<!-- Motor drivers and controllers -->
+	<include file="$(find syropod)/launch/syropod_hardware.launch" />
+
+	<!-- Highlevel control --> 
+	<include file="$(find syropod)/launch/syropod_highlevel.launch" />
+	
+</launch>
+ 
