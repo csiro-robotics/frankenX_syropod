@@ -47,7 +47,7 @@
     <!-- Launch Gazebo Simulation -->
     <group if="$(arg gazebo)">
       <param name="/syropod/parameters/individual_control_interface" value="true"/>
-      <include file="$$(arg package)/launch/$(arg syropod)_gazebo.launch"/>
+      <include file="$(find syropod)/launch/$(arg syropod)_gazebo.launch"/>
     </group>
 
 
@@ -58,10 +58,9 @@
 
     <!-- Logging -->
     <group if="$(arg logging)">
-      <include file="$$(arg package)/launch/$(arg syropod)_log.launch" >
+      <include file="$(find syropod)/launch/$(arg syropod)_log.launch" >
         <arg name="bagfile_name" value="$(arg syropod)" />
-        <arg name="path_to_log_directory" value="/home/aslab/logs/hardware"/>
-        <arg name="record_highlevel" value="true" />
+        <arg name="record_all" value="true" />
       </include>
     </group>
 
