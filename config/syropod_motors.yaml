@@ -43,7 +43,7 @@ syropod:
           joint_speed: 5.0
           motor:
             id: 6
-            init: 256
+            init: 200
             min: 1023
             max: 0
 
@@ -84,7 +84,7 @@ syropod:
           joint_speed: 5.0
           motor:
             id: 18
-            init: 256
+            init: 200
             min: 1023
             max: 0
 
@@ -125,7 +125,7 @@ syropod:
           joint_speed: 5.0
           motor:
             id: 12
-            init: 256
+            init: 200
             min: 1023
             max: 0
 
@@ -166,7 +166,7 @@ syropod:
           joint_speed: 5.0
           motor:
             id: 11
-            init: 768
+            init: 824
             min: 0
             max: 1023
 
@@ -207,7 +207,7 @@ syropod:
           joint_speed: 5.0
           motor:
             id: 17
-            init: 768
+            init: 824
             min: 0
             max: 1023
 
@@ -247,7 +247,7 @@ syropod:
           joint_speed: 5.0
           motor:
             id: 5
-            init: 768
+            init: 824
             min: 0
             max: 1023
 
