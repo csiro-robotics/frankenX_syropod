@@ -2,7 +2,7 @@
 
 <launch>
     <!-- Load controller configuration to parameter server -->
-    <rosparam file="$(find syropod)/config/syropod_motors.yaml" command="load"/>
+    <rosparam file="$(find frankenX_syropod)/config/frankenX_motors.yaml" command="load"/>
     <include file="$(find dynamixel_joint_states_publisher)/launch/joint_states_publisher.launch" />
         
 	
