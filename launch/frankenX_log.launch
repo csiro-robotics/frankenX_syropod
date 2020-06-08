@@ -6,7 +6,7 @@
   <arg name="bagfile_name" default="bagfiles"/>
 
   <!-- Path to file system storage for recorded rosbags -->
-  <arg name="path_to_log_directory" default="/home/jay038"/>
+  <arg name="path_to_log_directory" default="/home/log"/>
   
   <!-- Bag file splitting -->
   <arg name="max_bag_duration" default="10m" />
