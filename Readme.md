@@ -2,11 +2,11 @@
 
 [![Syropod Banner](https://i.imgur.com/QyMTwG3.jpg "CSIRO Robotics")](https://research.csiro.au/robotics/)
 
-A ROS package which contains configuration and launch files for the FrankenX Syropod which is a modified version of the [PhantomX Mk1 hexapod](https://www.trossenrobotics.com/phantomx-ax-hexapod-mk1.aspx) for use with [Syropod Highlevel Controller](https://github.com/csiro-robotics/syropod_highlevel_controller). For other hexapods, configuration files can be modified accordingly.
+A ROS package which contains configuration and launch files for the FrankenX Syropod which is a modified version of the [PhantomX Mk1 hexapod](https://www.trossenrobotics.com/phantomx-ax-hexapod-mk1.aspx) for use with [OpenSHC](https://github.com/csiro-robotics/syropod_highlevel_controller). For other legged robots, configuration files can be modified accordingly.
 
 ## Getting Started
 
-If you haven't looked at the tutorials for using Syropod Highlevel Controller, see [SHC Tutorials](https://github.com/csiro-robotics/shc_tutorials).
+If you haven't looked at the tutorials for using OpenSHC, see [OpenSHC Tutorials](https://github.com/csiro-robotics/shc_tutorials).
 
 ### Requirements
 
@@ -70,7 +70,7 @@ Consult [`syropod_highlevel_controller/config/readme.md`](https://github.com/csi
 
 ### Typical Usage
 
-RVIZ Visualisation of Franken with hardware for debugging:
+RVIZ Visualisation of FrankenX with hardware for debugging:
 
 ```bash
 roslaunch frankenX_syropod frankenX_hardware.launch
