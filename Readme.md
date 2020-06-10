@@ -30,8 +30,8 @@ If you haven't looked at the tutorials for using Syropod Highlevel Controller, s
 
 * [ROS Joystick](http://wiki.ros.org/joy)
   * `sudo apt-get install ros-melodic-joy`
-* [RQT Reconfigure Control](https://github.com/csiro-robotics/syropod_keyboard_control) (Optional):
-  * `git clone https://github.com/csiro-robotics/syropod_keyboard_control.git`
+* [RQT Reconfigure Control](https://github.com/csiro-robotics/syropod_rqt_reconfigure_control) (Optional):
+  * `git clone https://github.com/csiro-robotics/syropod_rqt_reconfigure_control.git`
 
 Instructions on the use of differing control inputs can be found at the individual repo links above.
 
