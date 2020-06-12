@@ -4,6 +4,8 @@
 
 A ROS package which contains configuration and launch files for the FrankenX Syropod which is a modified version of the [PhantomX Mk1 hexapod](https://www.trossenrobotics.com/phantomx-ax-hexapod-mk1.aspx) for use with [OpenSHC](https://github.com/csiro-robotics/syropod_highlevel_controller). For other legged robots, configuration files can be modified accordingly.
 
+[![FrankenX Syropod](https://i.imgur.com/yyTnefv.gif "FrankenX Syropod")](https://research.csiro.au/robotics/our-work/research-areas/legged-robots/)
+
 ## Getting Started
 
 If you haven't looked at the tutorials for using OpenSHC, see [OpenSHC Tutorials](https://github.com/csiro-robotics/shc_tutorials).
